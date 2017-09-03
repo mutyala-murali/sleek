@@ -70,3 +70,8 @@ define('CONTROLLERS', SITE_ROOT.DS.'app'.DS.'Controllers');
  * Models Directory Path
  */
 define('MODELS', SITE_ROOT.DS.'app'.DS.'Models');
+
+/**
+ * Views Directory path
+ */
+define('VIEWS', SITE_ROOT.DS.'app'.DS.'Views');
