@@ -8,7 +8,10 @@
  * ----------------------------------------------------------------------
  */
 
-//Databse Constatns
+/**----------------------------------------------------------------------
+ *                  DATABASE CONSTANTS
+ * ----------------------------------------------------------------------
+ */
 
 /**
  * Constant for DATABASE SERVER
@@ -39,3 +42,31 @@ defined('DB_PASSWORD') ? NULL : define('DB_PASSWORD', 'root');
  * @var string 
  */
 defined('DB_NAME') ? NULL : define('DB_NAME', 'sleek');
+
+
+/**
+ * --------------------------------------------------------------------------
+ *                    website root constants
+ * --------------------------------------------------------------------------
+ */
+
+/**
+ * Directory separator
+ */
+define('DS', DIRECTORY_SEPARATOR);
+
+/**
+ * Web ROOT directory
+ */
+define('SITE_ROOT', __DIR__);
+
+
+/**
+ * Controllers Directory path
+ */
+define('CONTROLLERS', SITE_ROOT.DS.'app'.DS.'Controllers');
+
+/**
+ * Models Directory Path
+ */
+define('MODELS', SITE_ROOT.DS.'app'.DS.'Models');
